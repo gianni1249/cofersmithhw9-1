@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo Copying the program to /usr/lib/cgi-bin
+sudo cp read_button.cgi /usr/lib/cgi-bin/
+echo Done Copying
+
+echo Giving +s permissions to the application 
+sudo chmod +s /usr/lib/cgi-bin/read_button.cgi
+echo Permissions added 
